@@ -7,7 +7,7 @@ module "sns" {
   kms_key_id                = "alias/aws/sns"
   s3_arn_for_sns            = module.s3.s3_bucket_arn
   sns_subscription_protocol = "email"
-  sns_subscription_endpoint = "mohanaads18@gmail.com"
+  sns_subscription_endpoint = "example@gmail.com"
 }
 
 module "s3" {
