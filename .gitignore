@@ -1,0 +1,38 @@
+# Local .terraform directories
+.terraform/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+*.crash
+
+# Backup files
+*.tfvars
+*.tfvars.json
+
+# Module files
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/modules/
+.terraform/plugins/
+
+# Terraform logs
+*.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore IDE/editor specific files
+.idea/
+*.swp
+*~
+
+# Ignore sensitive files
+secrets.tfvars
